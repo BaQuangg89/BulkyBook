@@ -13,10 +13,10 @@ namespace BulkyBook.DataAccess.Repository
 {
     public class SP_Call : ISP_Call
     {
-        private readonly ApplicationDbContext _db;
+        private readonly Data.ApplicationDbContext _db;
         private static string ConnectionString = "";
 
-        public SP_Call(ApplicationDbContext db)
+        public SP_Call(Data.ApplicationDbContext db)
         {
             _db = db;
             ConnectionString = db.Database.GetDbConnection().ConnectionString;
