@@ -38,6 +38,7 @@ namespace BulkyBook.Areas.Admin.Controllers
                 return NotFound();
             }
             return View(category);
+
         }
 
         #region API CALLS
