@@ -23,11 +23,11 @@ a {
   color: #fff;
   
   /*background-color: #1b6ec2;*/
-background-color: #2c3e50;
+/*background-color: #2c3e50;
 border-color: #1861ac;
 }
-
 */
+
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
@@ -109,7 +109,7 @@ body {
 #logreg-forms {
     width: 412px;
     margin: 10vh auto;
-    background-color: white;
+    background-color:white;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
     transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
@@ -199,3 +199,4 @@ body {
     width: 210px !important;
     margin: 0 auto;
 }
+
