@@ -26,7 +26,7 @@ namespace BulkyBook.Areas.Admin.Controllers
         {
             return View();
         }
-
+        //FUNCTION UPDATE   
         public IActionResult Upsert(int? id)
         {
             CoverType coverType = new CoverType();
