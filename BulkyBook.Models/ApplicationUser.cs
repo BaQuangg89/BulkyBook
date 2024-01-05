@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 
 namespace BulkyBook.Models
 {
+    //MODAL
     public class ApplicationUser : IdentityUser
     {
         [Required]
